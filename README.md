@@ -1,24 +1,30 @@
-# README
+[Client-side Repo](https://github.com/sebastosh/teleprompter-app)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Demo](http://teleprompter.sebastiensanzdesantamaria.net/)
 
-Things you may want to cover:
+## Teleprompter
 
-* Ruby version
+A web based teleprompter interface allowing a speaker to read scripts on camera or to a live audience. Using Vanilla Javascript to create an interactive single page application through DOM manipulation.
+Incorporating QuillJS library to invoke a WYSIWYG word processing editor with full CRUD capability. Ruby on Rails API established for document saving versioning system.
 
-* System dependencies
 
-* Configuration
+## Key Technologies, Packages, and Gems
 
-* Database creation
+* Front End
 
-* Database initialization
+  * Javascript 
+  * QuillJS
+  * HTML, CSS  
 
-* How to run the test suite
+* Back End
 
-* Services (job queues, cache servers, search engines, etc.)
+  * Rails 5 API
+  * Postgres database
 
-* Deployment instructions
+## Core Features
 
-* ...
+* User can access and perform full crud on all scripts from the database.
+* A user can create a new script perform full crud.
+* Each script can edited in a QuillJS WYSIWYG word processing editor.
+* Each script can into prompt mode.
+* Scrolling text upwards is currently at a fixed speed and is activated by pressing the "Return" key.
